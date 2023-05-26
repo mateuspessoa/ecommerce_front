@@ -1,0 +1,96 @@
+.container {
+    display: flex;
+    width: 100%;
+    height: 8vh;
+    padding-left: 160px;
+    padding-right: 160px;
+    background-color: #FFF;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.logo h1 {
+    font-size: 40px;
+    font-family: 'Saira Stencil One', cursive;
+    font-weight: 400;
+    color: #5D5D6D;
+}
+
+.input_icon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
+    width: 50%;
+    height: 100%;
+}
+
+.input {
+    display: flex;
+    width: 55%;
+}
+
+.input input {
+    height: 42px;
+    width: 100%;
+    border-radius: 8px 0 0 8px;
+    border: none;
+    outline: none;
+    background-color: #F3F5F6;
+    padding-left: 15px;
+    font-family: 'Saira', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #737380;
+}
+
+.input input::-webkit-input-placeholder {
+    font-family: 'Saira', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #737380;
+}
+
+
+.icon_input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 42px;
+    background-color: #F3F5F6;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.icone_carrinho {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.quant_carrinho {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #DE3838;
+    width: 20px;
+    height: 20px;
+    z-index: 999;
+    bottom: 0;
+    right: 0;
+    font-family: 'Saira', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+}
