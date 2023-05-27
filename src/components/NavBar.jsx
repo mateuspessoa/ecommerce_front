@@ -1,6 +1,7 @@
 import styles from '../styles/NavBar.module.css'
 import { FiShoppingBag } from 'react-icons/fi';
 import { FiSearch } from 'react-icons/fi';
+import { Link } from "react-router-dom"
 
 function NavBar() {
 
@@ -16,12 +17,14 @@ function NavBar() {
                     <FiSearch size={20} color='#737380' />
                 </div>
             </div>
-            <div className={styles.icone_carrinho}>
-                <div className={styles.quant_carrinho}>
-                    <p>2</p>
+            <Link to="/carrinho">
+                <div className={styles.icone_carrinho}>
+                    <div className={styles.quant_carrinho}>
+                        <p>2</p>
+                    </div>
+                    <FiShoppingBag size={20} color='#737380' />
                 </div>
-                <FiShoppingBag size={20} color='#737380' />
-            </div>
+            </Link>
         </div>
       </div>
     )

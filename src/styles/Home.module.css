@@ -1,0 +1,125 @@
+/* -- CATEGRIA -- */
+
+.container_categorias {
+    display: flex;
+    width: 100%;
+    height: 8vh;
+    padding-left: 160px;
+    padding-right: 160px;
+    /*background-color: red;*/
+}
+
+.content_categorias {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    /*background-color: blue;*/
+}
+
+.container_categorias ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.container_categorias ul li {
+    display: flex;
+    align-items: center;
+    height: 35px;
+    font-family: 'Saira', sans-serif;
+    font-size: 16px;
+    color: #737380;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.container_categorias ul li:first-child {
+    color: #41414D;
+    font-weight: 600;
+    border-bottom: 4px solid #FFA585;
+}
+
+.select {
+    display: flex;
+     width: 50%;
+     align-items: center;
+     justify-content: flex-end;
+}
+
+.select select {
+    background-color: transparent;
+    border: none;
+    font-family: 'Saira', sans-serif;
+    font-size: 15px;
+    color: #737380;
+    font-weight: 400;
+    outline: none;
+    cursor: pointer;
+}
+
+/* -- PRODUTOS -- */
+
+.container_produtos {
+    width: 100%;
+    height: 85vh;
+    padding-left: 160px;
+    padding-right: 140px;
+    padding-top: 40px;
+    gap: 62px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card_produto {
+    width: 256px;
+    height: 385px;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container_imagem {
+    width: 100%;
+    height: 300px;
+}
+
+.container_imagem img {
+    border-radius: 5px;
+}
+
+.container_nome_produto, .container_preco_produto {
+    width: 100%;
+    height: 42px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.nome {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #DCE2E6;
+}
+
+.nome p {
+    font-family: 'Saira', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #41414D;
+}
+
+.preco {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.preco p {
+    font-family: 'Saira', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #09090A;
+}

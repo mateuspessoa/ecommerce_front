@@ -1,0 +1,153 @@
+.container {
+    display: flex;
+    width: 100%;
+    height: 92vh;
+}
+
+.esquerda {
+    width: 50%;
+    height: 100%;
+    padding-left: 160px;
+}
+
+.voltar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 8vh;
+}
+
+.voltar p {
+    font-family: 'Saira', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #617480;
+}
+
+.voltar a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.esquerda img {
+    width: 700px;
+    height: 700px;
+}
+
+.direita {
+    padding-top: 71px;
+    width: 50%;
+    height: 100%;
+    padding-right: 160px;
+}
+
+.nome_categoria {
+    width: 100%;
+    height: 4vh;
+}
+
+.nome_categoria p {
+    font-family: 'Saira', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #41414D;
+}
+
+.titulo {
+    display: flex;
+    width: 100%;
+    height: 5vh;
+}
+
+.titulo h1 {
+    font-family: 'Saira', sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    color: #41414D;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 6vh;
+}
+
+.price h2 {
+    font-family: 'Saira', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #09090A;
+}
+
+.frete {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 4vh;
+}
+
+.frete p {
+    font-family: 'Saira', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #41414D;
+}
+
+.container_desc_btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 53vh;
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 15vh;
+}
+
+.desc h2 {
+    font-family: 'Saira', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #737380;
+    margin-bottom: 10px;
+}
+
+.desc p {
+    font-family: 'Saira', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #41414D;
+}
+
+.btn {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    height: 10vh;
+}
+
+.btn button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    width: 448px;
+    height: 44px;
+    color: #F5F5FA;
+    background-color: #115D8C;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all ease .5s;
+}
+
+.btn button:hover {
+    background-color: #0a3955;
+}
